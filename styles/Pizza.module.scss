@@ -1,0 +1,12 @@
+.pizza{
+    width: calc((100% - 60px) / 3);
+    padding: 20px;
+    margin: 10px;
+    box-shadow: var(--shadow);
+    border-radius: 5px;
+    .img{
+        border-top-left-radius: 2px;
+        border-top-right-radius: 2px;
+        width: 100%;
+    }
+}

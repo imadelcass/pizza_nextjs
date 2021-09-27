@@ -1,0 +1,23 @@
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  margin: auto;
+  margin-bottom: 20px;
+  input {
+    border: none;
+    outline: none;
+    box-shadow: var(--shadow);
+    padding: 5px;
+    flex: 3;
+  }
+  .search_icon {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--lightRed);
+    padding: 1px;
+  }
+}
